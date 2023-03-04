@@ -1,0 +1,20 @@
+function getGrade (s1, s2, s3) {
+let s4 = (s1 +s2 +s3)/3;
+  if ( s4 >= 90 && s4  <= 100 ){
+    return "A";
+    }
+  else if (s4  >= 80 && s4  < 90){
+    return 'B';
+    }
+  
+   else if ( s4  >= 70 && s4  < 80){
+    return "C"
+     }
+  else if (  s4  >= 60 && s4  < 70){
+    return "D"
+     }
+  else{ 
+    return "F"
+    }
+
+}
