@@ -2,4 +2,3 @@ function getAverage(marks){
   let c = marks.reduce((a,b)=>a + b, 0)
   return Math.floor(c /marks.length)
 }
-//
